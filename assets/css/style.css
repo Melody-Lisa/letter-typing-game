@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(0deg, rgba(25,142,144,1) 0%, rgba(158,28,151,1) 100%);
+    overflow: hidden;
+    font-family: Mulish, sans-serif;
+}
+
+h1 {
+    font-family: "Henny Penny", serif;
+    letter-spacing: 1px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center horizontally */
+    height: 100vh; /* Full viewport height */
+    text-align: center; /* Ensures text content is centered */
+}
+
+p, #result, #letter {
+    width: 100%; /* Makes each element take full width */
+    margin: 10px 0; /* Adds spacing between elements */
+}
+
+#result {
+    height: 4rem; /* Set height of result box */
+    font-size: 2rem;
+}
+
+#letter {
+    width: 80px; /* Square size */
+    height: 80px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+    background-color: transparent;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
