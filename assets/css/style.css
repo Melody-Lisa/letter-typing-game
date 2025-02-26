@@ -27,8 +27,9 @@ p, #result, #letter {
 }
 
 #result {
-    height: 4rem; /* Set height of result box */
-    font-size: 2rem;
+    height: 5rem; /* Set height of result box */
+    margin-bottom: 5px;
+    font-size: 4rem;
 }
 
 #audio-btn {
@@ -40,7 +41,7 @@ p, #result, #letter {
     background-color: rgba(25,142,144,1);
     color: black;
     cursor: pointer;
-    outline: none
+    outline: none;
 }
 
 #letter {
@@ -65,6 +66,16 @@ p, #result, #letter {
 
 /* Allow space for the keyboard on mobile devices smaller audio button */
 @media (max-width: 600px) {
+
+    h1 {
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    p, #result, #letter {
+        margin: 5px 0; /* Adds spacing between elements */
+    }
+
     #audio-btn {
         width: 40px;
         height: 40px;
