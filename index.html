@@ -21,11 +21,19 @@
     <main class="container">
         <p>Enter a letter and see the result:</p>
 
-        <div id="result"></div>
+        <div id="result">
+        </div>
+
+        <button id="audio-btn" aria-label="toggle music on or off">
+            <i id="off" class="fa-solid fa-volume-xmark"></i>
+            <i id="on" class="fa-solid fa-volume-high"></i>
+        </button>
+        <audio id="letter-sound" src=""></audio>
 
         <div id="letter" contenteditable="true"></div>
 
     </main>
+    <script src="https://kit.fontawesome.com/5039af5aad.js" crossorigin="anonymous"></script>
     <script src="/assets/js/script.js"></script>
 </body>
 

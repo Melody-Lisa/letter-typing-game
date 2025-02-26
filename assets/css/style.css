@@ -31,6 +31,18 @@ p, #result, #letter {
     font-size: 2rem;
 }
 
+#audio-btn {
+    width: 70px;
+    height: 70px;
+    font-size: 2rem;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: rgba(25,142,144,1);
+    color: black;
+    cursor: pointer;
+    outline: none
+}
+
 #letter {
     width: 80px; /* Square size */
     height: 80px;
